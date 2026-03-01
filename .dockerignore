@@ -1,0 +1,27 @@
+# Dependencies and venv
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.mypy_cache
+
+# Admin dev
+admin/node_modules
+admin/dist
+
+# Env and secrets (set at runtime)
+.env
+.env.*
+!.env.example
+
+# Git and IDE
+.git
+.gitignore
+.cursor
+*.md
+!README.md
+
+# Optional
+*.log
+.DS_Store
